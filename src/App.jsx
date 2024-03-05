@@ -5,6 +5,8 @@ import Why from './components/Why'
 import Trend from './components/Trend'
 import Popular from "./components/Popular";
 import Off from "./components/Off"
+import Book from './components/book'
+import Articles from './components/Articles'
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
       <Trend/>
       <Popular/>
       <Off/>
+      <Book/>
+      <Articles/>
       
 
       <Footer/> 

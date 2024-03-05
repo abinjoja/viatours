@@ -18,6 +18,9 @@ import pop5 from '../assets/pop5.png'
 import pop6 from '../assets/pop6.png'
 import pop7 from '../assets/pop7.png'
 import pop8 from '../assets/pop8.png'
+import art1 from '../assets//art1.png'
+import art2 from '../assets//art2.png'
+import art3  from '../assets//art3.png'
 
 
 
@@ -159,4 +162,25 @@ export const PopCards = [
         price: "$278"
     },
 
+];
+
+export const artCards = [
+    {
+        imgSrc:art1,
+        date:"April 06 2023",
+        author:"Ali Tufan",
+        desc:"Kenya vs Tanzania Safari: The Better African Safari Experience"
+    },
+    {
+        imgSrc:art2,
+        date:"April 07 2023",
+        author:"Emily Johnson",
+        desc:"Exploring the Serengeti: A Wildlife Adventure"
+    },
+    {
+        imgSrc:art3,
+        date:"April 08 2023",
+        author:"Maxwell Rhodes",
+        desc:"Into the Wild: An Unforgettable Safari Journey"
+    },
 ]
