@@ -23,4 +23,4 @@ const PopCard = ( {imgSrc , place, desc,  rating , price }) => {
   )
 }
 
-export default PopCard
+export default PopCard 

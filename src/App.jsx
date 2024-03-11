@@ -7,6 +7,9 @@ import Popular from "./components/Popular";
 import Off from "./components/Off"
 import Book from './components/book'
 import Articles from './components/Articles'
+import Toptrend from "./components/toptrend";
+import Customer from "./components/Customer";
+import Todo from "./components/Todo";
 
 export default function App() {
   return (
@@ -17,7 +20,11 @@ export default function App() {
       <Trend/>
       <Popular/>
       <Off/>
+      <Todo/>
+      <Toptrend/>
+      <Customer/>
       <Book/>
+      
       <Articles/>
       
 
