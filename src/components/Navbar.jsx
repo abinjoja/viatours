@@ -11,17 +11,18 @@ const Navbar = () => {
             alt="logoimg" />
             <form className=''> 
                 
-                    <input type="text" name='' id='place' placeholder='Search destinations or activities' className='bg-transparent text-md  font-inter' />
+                    <input type="text" name='' id='place' placeholder='Search destinations or activities' className='bg-transparent text-md  font-inter w-64 ' />
                 
             </form>
             
         </div>
         
-            <ul className='flex gap-10 lg:text-[15px] md:text-[13px] max-md:hidden items-center font-inter'>
-                <li>Destination</li>
-                <li>Activities</li>
-                <li>USD</li>
-                <li>Sign up</li>
+            <ul className='flex gap-10 lg:text-[15px] md:text-[13px] max-md:hidden items-center font-inter
+            ' >
+                <li className=' hover:border rounded-full hover:bg-via-orange hover:text-white p-2'>Destination</li>
+                <li className=' hover:border rounded-full hover:bg-via-orange hover:text-white p-2'>Activities</li>
+                <li className=' hover:border rounded-full hover:bg-via-orange hover:text-white p-2'>USD</li>
+                <li className=' hover:border rounded-full hover:bg-via-orange hover:text-white p-2'>Sign up</li>
                 <li className=' bg-via-orange rounded-2xl px-3 py-1 text-white  text-center'>Log in</li>
             </ul>
 

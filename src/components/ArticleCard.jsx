@@ -4,8 +4,8 @@ const ArticleCard = ({imgSrc , date , author , desc}) => {
   return (
     <div className='flex flex-col font-inter gap-9'>
         
-        <div className='p-3 rounded-xl ' style={{backgroundImage: `url(${imgSrc})`, height:"300px", width:"screen"}}>
-            <button className=' bg-white  rounded-2xl px-3 py-1'> Trips</button>
+        <div className='p-3 rounded-xl  ' style={{backgroundImage: `url(${imgSrc})`, height:"300px", width:"screen"}}>
+            <button className=' bg-white  rounded-2xl px-3 py-1 hover:bg-via-orange hover:text-white'> Trips</button>
         </div>
         <div className=' flex flex-col  gap-4 '> 
             <div className=' flex  text-sm font-light divide-x-2 gap-3'>

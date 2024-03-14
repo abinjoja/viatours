@@ -6,8 +6,8 @@ const PopCard = ( {imgSrc , place, desc,  rating , price }) => {
     <div className='border rounded-xl font-inter  '>
         <div className='p-3 flex flex-col gap-2'> 
             
-             <div className=' border-b-[1px] flex flex-col  gap-2 pb-3 '>
-               <img src={imgSrc} alt="" />
+             <div className='  border-b-[1px] flex flex-col  gap-2 pb-3 '>
+               <img src={imgSrc} alt="" className=' hover:scale-90 transition' />
                 <p className=' text-[12px] pl-4 text-slate-500'>{place}</p>
                 <p className='font-semibold  text-sm'>{desc}</p>
                 <p className=' text-[11px] pl-[30%]'>{rating}</p>

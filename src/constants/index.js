@@ -184,3 +184,21 @@ export const artCards = [
         desc:"Into the Wild: An Unforgettable Safari Journey"
     },
 ]
+export const destinations = [
+    {
+     city : "australia"
+    },
+    {
+        city : "australia"
+    },
+    {
+        city : "australia"
+     },
+    {
+        city : "australia"
+     },
+    {
+        city : "australia"
+    },
+
+]
